@@ -1,0 +1,387 @@
+\documentclass [a4paper, 12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{calligra}
+\usepackage{graphicx}
+
+\title{\sc{\textbf{Irradiância de uma fonte quase puntiforme}}}
+\author{\textit{João Pedro Silva dos Santos}}
+\date{\empty}
+
+\begin{document}
+
+\maketitle
+
+\section*{\hfill{RESUMO}}
+
+Este é um breve relato sobre uma experiência realizada pelo professor Luiz Pinheiro para que a turma de óptica pudesse realizar o tratamento dos dados do mesmo. E assim estudar o uso e a aplicação de fotodetectores e estudar os limites de validade do experimento e os erros inerentes ao mesmo.
+
+
+\section{Objetivos}
+
+Determinar a dependência luminosa de uma fonte quase puntiforme com a distância ao ponto de detecção.
+
+\begin{itemize}
+    \item Estudar o uso e a aplicação de fotodetectores.
+    \item Estudar os limites de validade do experimento e os erros inerentes ao mesmo.
+\end{itemize}
+
+\section{Introdução}
+
+Se uma fonte de radiação eletromagnética for puntiforme,
+esfericamente simétrica e isotrópica, podemos derivar uma expressão
+para a irradiância em função da distância até a fonte.
+
+Consideremos que o meio que
+circunda a fonte seja não absorvente (sem
+perdas). Assim, considerando que a fonte
+irradia uniformemente em todas as
+direções, essa energia irradiada
+atravessará a superfície de uma esfera
+concêntrica à fonte.
+
+Fonte puntiforme de luz:
+
+\begin{itemize}
+    \item Uma fonte de luz é chamada de puntiforme quando as suas dimensões são desprezíveis em relação à distância do objeto iluminado.
+    
+    \item Uma fonte de luz é chamada de extensa quando suas dimensões são consideráveis em relação à distância do objeto iluminado.
+
+\end{itemize}
+
+Em algumas situações podemos supor que a fonte seja pontual e
+que emite luz isotropicamente, (com igual intensidade em todas as
+direções).
+
+A energia das ondas esféricas passam por uma esfera imaginária
+de centro em O e raio r. A irradiância I de uma fonte é definida por:
+
+\begin{equation}
+  \ I = \dfrac{Pot{\text{ê}}ncia}{{\text{Á}}rea} = \dfrac{P_s}{4\pi r^2} = \dfrac{P_s}{4 \pi} \Bigg(\dfrac{1}{r^{2}} \Bigg) \longrightarrow I \ \alpha \ \dfrac{1}{r^{2}}\  
+\end{equation}
+
+Onde: $4\pi r^2$ é a área da esfera centrada na fonte e raio $r$
+igual à distância na qual se está mediando a irradiância $I$.
+
+
+\section{Materiais e métodos}
+\subsection{Materiais utilizados}
+Os materiais que foram necessários para esse experimento foram: 
+ 
+\begin{itemize}
+    \item Banco óptico;
+    \item Diafragma;
+    \item Fonte de luz;
+    \item Fotodetector;
+    \item Microamperímetro;
+    \item Régua/ Trena;
+    \item Anteparo;
+    \item Iluminação de baixa intensidade para efetuar a leitura do microamperímetro;
+    \item Lápis, caneta, papel, etc. ({\ttfamily{Para anotação dos dados}}).
+\end{itemize}
+
+\subsection{Métodos}
+
+Para esse experimento foi utilizado o método de transdução luz/corrente que consiste em detectores construídos com semicondutores, que são baseados no mecanismo de geração de pares, elétrons-lacunas por meio da absorção de fótons irradiados para dentro do material.
+
+\subsection{Procedimento experimental}
+Os procedimentos foram divididos em três partes:
+
+\subsubsection{Preparação:}
+
+\begin{enumerate}
+    \item  Foi Posicionada a fonte de luz e o fotodetector sobre o trilho;
+    \item Depois colocado o diafragma entre a fonte de luz e o detector;
+    \item Alinhados os componentes de forma que a luz ilumine completamente a superfície útil do detector;
+    \item Foi variada a posição do detector, mantendo a fonte e o diafragma fixos.
+\end{enumerate}
+
+\subsubsection{Coleta de dados:}
+
+
+\begin{enumerate} 
+\item Então foram feitas 22 medidas de r (entre o detector e o diafragma) e os correspondentes valores de corrente elétrica.
+\end{enumerate}
+
+
+\subsubsection{Tratamento de dados:}
+
+\begin{enumerate} 
+\item Usando o exel para o tratamento de dados e os gráficos;
+
+\item Foram feitos três gráficos: I $\times$ r, I $\times$ 1/r² e $\log(I)$ $\times$ $\log(r)$;
+
+\item Então determinando no gráfico log-log o coeficiente angular da reta;
+
+\item E por fim foi comparado este valor com o valor teórico.
+
+\end{enumerate}
+
+\section{Resultados e discusão}
+
+\subsection{Dados e gráficos}
+
+A partir do experimento foram obtidos os seguintes dados:
+
+\begin{table}[h]
+\centering
+\caption{Tabela de dados}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+Medida & $r(cm)$ & $I(\mu A)$  \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+1  & 1,5       & 211,0  \\  \hline 
+2  & 2,5       & 89,0  \\  \hline
+3  & 3,5       & 49,0  \\  \hline
+4  & 4,5       & 31,0  \\ \hline
+5  & 5,5       & 20,0  \\ \hline
+6  & 6,5       & 14,2  \\ \hline
+7  & 7,5       & 11,4  \\ \hline
+8  & 8,5       & 8,5   \\ \hline
+9  & 9,5       & 6,9   \\ \hline
+10 & 10,5      & 5,8   \\ \hline
+11 & 11,5      & 4,8   \\ \hline
+12 & 12,5      & 4,0   \\ \hline
+13 & 13,5      & 3,5   \\ \hline
+14 & 14,5      & 3,0   \\ \hline
+15 & 15,5      & 2,8   \\ \hline
+16 & 17,5      & 2,0   \\ \hline
+17 & 19,5      & 1,7   \\ \hline
+18 & 21,5      & 1,3   \\ \hline
+19 & 23,5      & 1,1   \\ \hline
+20 & 25,5      & 1,0   \\ \hline
+21 & 28,5      & 0,9   \\ \hline
+22 & 36,5      & 0,4   \\ \hline % não é preciso quebrar a última linha
+\end{tabular}
+\end{table}
+
+\newpage
+
+Com os dados da tabela 1 foi então criardo o gráfico abaixo para o comportamento da corrente ao afastar a fonte luminosa.
+
+
+
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{g1.jpg}}
+\caption{\label{fig:g1} \empty}
+\end{figure}
+
+Passa-se então aos dados, dados esses que estão na próxima tabela, que foram tratados para formar os gráficos de I(microA) $\times$ (1/ r²)(1 / cm²) e de $\log(I)$ $\times$ $\log(r)$, e colocados logo depois da tabela 2.
+
+\newpage
+
+\begin{table}[h!]
+\centering
+\caption{Tabela de dados tratados}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|c|c|} \hline
+medida & $1 / r^2 (1/cm^2)$& $I(microA)$ & log(r)	& log(I)    \\
+\hline
+1	    &    0,4444444444	 &  211	    &   0,1760912591	&   2,324282455     \\  \hline 
+2	    &    0,16	         &  89	    &   0,3979400087	&   1,949390007     \\  \hline
+3	    &    0,08163265306	 &  49	    &   0,5440680444	&   1,69019608      \\  \hline
+4	    &    0,04938271605	 &  31	    &   0,6532125138	&   1,491361694     \\  \hline
+5	    &    0,03305785124	 &  20	    &   0,7403626895	&   1,301029996     \\  \hline
+6	    &    0,02366863905	 &  14,2	&   0,8129133566	&   1,152288344     \\  \hline
+7	    &    0,01777777778	 &  11,4    &   0,8750612634	&   1,056904851     \\  \hline
+8	    &    0,01384083045	 &  8,5	    &   0,9294189257	&   0,9294189257    \\  \hline
+9	    &    0,01108033241	 &  6,9	    &   0,9777236053	&   0,8388490907    \\  \hline
+10	    &    0,009070294785  &  5,8	    &   1,021189299	    &   0,7634279936    \\  \hline
+11	    &    0,007561436673  &  4,8	    &   1,06069784	    &   0,6812412374    \\  \hline
+12	    &    0,0064	         &  4	    &   1,096910013	    &   0,6020599913    \\  \hline
+13	    &    0,00548696845	 &  3,5	    &   1,130333768	    &   0,5440680444    \\  \hline
+14	    &    0,004756242568	 &  3	    &   1,161368002	    &   0,4771212547    \\  \hline
+15	    &    0,004162330905	 &  2,8	    &   1,190331698	    &   0,4471580313    \\  \hline
+16	    &    0,003265306122	 &  2	    &   1,243038049	    &   0,3010299957    \\  \hline
+17	    &    0,002629848784	 &  1,7	    &   1,290034611	    &   0,2304489214    \\  \hline
+18	    &    0,002163331531	 &  1,3	    &   1,33243846	    &   0,1139433523    \\  \hline
+19	    &    0,001810774106	 &  1,1	    &   1,371067862	    &   0,04139268516   \\  \hline
+20	    &    0,00153787005	 &  1	    &   1,40654018	    &   0               \\  \hline
+21	    &    0,001231148046	 &  0,9	    &   1,45484486	    &   -0,04575749056  \\  \hline
+22	    &    0,0007506098705 &	0,4	    &   1,562292864	    &   -0,3979400087   \\  \hline
+
+\end{tabular}
+\end{table}
+
+\newpage
+
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{g2.jpg}}
+\caption{\label{fig:g2} \empty}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{g3.jpg}}
+\caption{\label{fig:g3} \empty}
+\end{figure}
+
+\subsection{Ajuste Linear}
+
+Pode-se então começar a manipular os dados a partir da seguinte equação:
+
+\begin{equation}
+  \ I = {A} \times {r^{(-n)}} = A \times \dfrac{1}{r^{(n)}} \
+\end{equation}
+\vspace{0.025 cm}
+
+Deve ser adicionado o logaritmo em ambos os lados da equação (2):
+
+\begin{equation}
+  \ \log (I) = \log \Bigg( {A \times \dfrac{1}{r^{(n)}} }\Bigg) \times {r^{(-n)}} = \log (A) + \log \Bigg( \dfrac{1}{r^{(n)}} \Bigg)
+\end{equation}
+\vspace{0.025 cm}
+\begin{equation}
+  \ \log (I) = \log (A) - n\times\log (r)
+\end{equation}
+
+Sabendo que A é uma constante tem-se que $\log(A)$ também é uma constante logo pode-se dizer que $\log(A)$ é igual a b. Assim substituindo b na equação (4) fica-se com:
+
+\begin{equation}
+  \ \log (I) = - n\times\log (r) + b
+\end{equation}
+
+Que pode ser comparada a uma equação da forma:
+
+\begin{equation}
+  \ y = ax + b
+\end{equation}
+
+Sabendo disso pode-se então proceder com o processo de ajuste linear.
+
+Utilizando os dados de $\log(I)$ e $\log(r)$, da tabela 2 obtem-se:
+
+
+\begin{table}[h!]
+\centering
+\caption{Tabela de dados tratados}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|} \hline
+
+<x>            &   <$\log(r)$>                   &  1,019449053     \\ \hline
+<y>            &   <$\log(I)$>                   &  0,7496325205    \\ \hline
+<xy>           &   <$\log(I)\times\log(r)$>      &  0,5292414192    \\ \hline
+<x²>           &   <$\log(r)^2$>                 &  1,160054545     \\ \hline
+<y²>           &   <$\log(I)^2$>                 &  1,020008223     \\ \hline
+$\sigma_{xy}$  &    covariância                  &  -0,2349707442   \\ \hline
+$\sigma_{x}$   &    desvio padrão $\log(r)$      & 0,3475315421    \\ \hline
+$\sigma_{y}$   &    desvio padrão $\log(I)$      & 0,6768007881    \\ \hline
+ 
+
+\end{tabular}
+\end{table}
+
+A partir dos valores da tabela 3 calcula-se então:
+
+
+\begin{table}[h!]
+\centering
+\caption{\empty}
+\vspace{0.1 cm}
+\begin{tabular}{|c|c|c|} \hline
+
+n               &    -1,945473581    \\ \hline
+b               &     2,732943721    \\ \hline
+$\epsilon_y$    &     0,0319831932   \\ \hline
+$\epsilon_x$    &    -0,01643979826  \\ \hline
+$\sigma_n$      &    0,01962077934   \\ \hline
+$\sigma_b$      &    0,02113272291   \\ \hline
+
+\end{tabular}
+\end{table}
+\newpage
+Desse modo a reta de calibração é expressa como:
+
+\begin{equation}
+  \ \log (I) (microA) = -1,945\times\log (r) (cm) + 2,732
+\end{equation}
+
+\begin{equation}
+  \ \epsilon_y = \epsilon_{_{log(I)}} = 0,031 (microA)
+\end{equation}
+
+Tendo como expressão final a junção de (7) com (8). Assim tem-se:
+
+\begin{equation}
+  \ \log (I) \pm \big[ \epsilon_{_{log(I)}} \big] = \Big(-1,945\cdots\times\log (r)\Big) \pm (0,031) + (2,732) \pm (0,031)
+\end{equation}
+
+Assim foi encontrado um coeficente angular $n$ $\cong$ - 1,945.
+
+
+\subsection{Erros e compatibilidade}
+
+Como se pode observar em nossa equação (1) tem-se o $n$ valendo -2 que é o valor de referência, como o $n$ encontrado não tem o mesmo valor passasse então ao cálculo de sua compatibilidade.
+
+Usando a relação
+
+\begin{equation}
+  \ \Big|n - n_{ref}\Big| < 2\times\sigma_n
+\end{equation}
+
+Pode-se dizer se o valor é ou não compativel com a teoria.
+
+Substituindo os valores em (10) fica-se com:
+
+\begin{equation}
+  \ \Big|(-1,945\cdots) - (-2)\Big| < 2\times0,019\cdots \rightarrow 0,05452641892 < 0,03924155869
+\end{equation}
+
+Como se pode ver o resultado dessa desigualdade é falso. Passa-se a fazer então 
+
+\begin{equation}
+  \ \Big|n - n_{ref}\Big| \le 3\times\sigma_n
+\end{equation}
+
+Substituindo os valores em (12) fica-se com:
+
+\begin{equation}
+  \ \Big|(-1,945\cdots) - (-2)\Big| \le 3\times0,019\cdots \rightarrow  
+  \ 0,05452641892 \le 0,05886233803
+\end{equation}
+
+Como pode-se observar o resultado dessa desigualdade é verdadeiro. Ou seja ele se encaixa na situação da equação (14) que dará uma resposta inconclusiva à analise.
+
+\begin{equation}
+  \  2\times\sigma_n < \Big|n - n_{ref}\Big| \le 3\times\sigma_n
+\end{equation}
+
+Possa-se a calcular o erro relativo para que se possa ver qual a proximidade fica a resposta em relação ao valor de referência.
+
+è possivel conseguir esse erro fazendo:
+
+\begin{equation}
+  \  E = \dfrac{\Big|n - n_{ref}\Big|}{n_{ref}} \times 100 \%
+\end{equation}
+
+Substituindo os valores na equação (15) fica-se com:
+
+\begin{equation}
+  \  E = 2,73\%
+\end{equation}
+
+Que é o erro relativo.
+
+\section{Conclusões}
+
+Através da elaboração deste relatório se pode ter uma noção de uma aplicação dos fotodetectores para a produção de corrente eletrica ou no caso da irradiância luminosa. Sendo assim pode-se ver que quanto maior a distância menor a irradiância.
+
+Através de manipulações chegou-se numa relação em se pode aplicar o ajuste linear e sendo assim foi realizada a linearização e os testes de compatibilidade para a equação linearizada. Pode-se chegar a conclusão de que os dados nos deram uma equação inconclusiva, porém ao calcular erro relativo viu-se que se que a mesmo continha um erro relativamente pequeno. Portanto pode-se dizer que a experiência foi bem sucedida.
+
+\section{Referências}
+
+PINHEIRO, Luiz. Modelo de relatório. 2021. Nota de Aula (Graduação, Física) - Professor, [S. l.], 2021. pdf.
+
+SANTORO, Alberto; MAHON, José Roberto; DE OLIVEIRA, José Umberto; MUNDIM FILHO, Luiz; OGURI, Vitor; DA SILVA, Wanda. Estimativas e erros em experimentos de física. 2. ed. Rio de Janeiro: Ed UERJ, 2008. 131 p.
+
+
+\end{document}
