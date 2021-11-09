@@ -1,0 +1,363 @@
+\documentclass [a4paper, 12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{calligra}
+\usepackage{graphicx}
+
+\title{\sc{\textbf{Reflexão interna total e reflexão em espelhos planos}}}
+\author{\textit{João Pedro Silva dos Santos}}
+\date{\empty}
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Objetivos}
+
+Estudar o fenômeno da reflexão da luz em superfícies planas e determinar o índice de refração de um material transparente usando o fenômeno da reflexão total.
+
+\section{Introdução}
+
+A luz propagando-se num meio e incidindo sobre uma superfície de separaração com um segundo meio, apresenta simultaneamente os fenônemos de reflexão, refração e absorção. Para que a refração seja um fenômeno predominante, o segundo meio deve ser transparente, como, por exemplo, a água ou o ar.
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{figura1.png}}
+\caption{\label{fig:figura1} \empty}
+\end{figure}
+
+Se a incidência for oblíqua, a refração é acompanhada de mudança de direção (figura 2a). Por outro lado, se a incidência for perpendicular (figura2b), a refração ocorre sem desvio.
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{figura2.jpg}}
+\caption{\label{fig:figura2} \empty}
+\end{figure}
+
+Podemos então, dizer que:
+
+A refração da luz pode ser entendida como uma variação de velociade sofrida pela luz ao passar de um meio de propagação para o outro.
+
+\subsection{Leis da refração}
+
+A refração luminosa é regida por duas leis:
+
+\subsubsection{1ª lei:}
+
+O raio incidente, o raio refratado e a normal à superfície de separação pertencem ao mesmo plano.
+
+\subsubsection{2ª lei ou lei de Snell-Decartes:}
+
+Para cada par de meios e cada luz monocromática que se refrata, é constante o produto do seno do ângulo que o raio forma com a normal e o índice de refração do meio em que o raio se encontra.
+
+Podemos escrever também escrever na forma:
+
+\begin{equation}
+  \ n_{1} \times sen (i) = n_{2} \times sen (r)
+\end{equation}
+
+Sendo $n_{1}$ o índice de refração do primeiro meio, $n_{2}$ o índice de refração do segundo meio, $i$ o ângulo do raio incidente e $r$ o ângulo do raio refratado.
+
+\begin{equation}
+  \ sen (i) = \dfrac{n_{2}}{n_{1}} \times sen (r)
+\end{equation}
+
+\subsection{Ângulo limite ou Ângulo crítico}
+
+Considerando inicialmente um raio de luz monocromático propagando-se do meio menos refringente para o meio mais refringente.
+
+Aplincando a equação (1), como $n_{1}$ e $n_{2}$ são valores constantes, se aumentarmos o ângulo de incidência $i$, o ângulo de refração $r$ também irá aumentar, mantendo-se sempre válida a desigualdade $i > r$.
+
+Verifica-se que, à medida que um ângulo de incidência $i$ tende para um seu valor máximo, que é $90$° (insidência rasante), o ângulo de refração $r$ tende para um valor máximo $L < 90$°, denominado ângulo limite.
+
+Essa situação extrema está representada n figura(1). Substituindo na expressão da Lei de Senll-Descartes os valores dos ângulos correspondentes, teremos:
+
+\begin{equation}
+  \ sen(r) = sen(L)  
+\end{equation}
+\begin{equation}
+  \ sen(i) = sen(90°) = 1  
+\end{equation}
+\begin{equation}
+  \ n_{1} \times 1 = n_{2} \times sen(L) 
+\end{equation}
+\begin{equation}
+  \ sen(L) = \dfrac{n_{1}}{n_{2}} = \dfrac{n_{menor}}{n_{maior}}  
+\end{equation}
+
+Portanto, o ângulo limite $L$ é um valor bem definido para cada par de meios e para cada luz monocromática.
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{figura3.jpg}}
+\caption{\label{fig:figura2} \empty}
+\end{figure}
+
+\subsection{Reflexão total}
+
+No caso de a luz se propagar do meio mais refringente (B) para o meio menos resfringene (A), na situação extrema descrita no item anterior, o ângulo de incidência será igual ao ângulo limite $L$ e o ângulo de refração será igual a $90$°, como é indicado na figura 3c.
+
+Se o ângulo de incidência for superior ao ângulo limite, quando a luz se propaga do meio mais restringente para o meio menos refringente, não ocorre refração. A luz sofre então o fenômeno da reflexão total, como se reprensenta na figura 4. É importante assinalar que, quando ocorre a reflexão total, não há refração de nenhuma parcela de luz.
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{figura4.jpg}}
+\caption{\label{fig:figura2} \empty}
+\end{figure}
+
+\section{Materiais e métodos}
+
+\subsection{Materiais utilizados}
+
+\begin{itemize}
+    \item Transferidor de $360$°
+    \item Laser
+    \item Prisma
+    \item Plataforma giratória
+\end{itemize}
+
+\subsection{Procedimento experimental 1}
+
+\begin{enumerate}
+    \item Incidir o feixe luminoso na direção do centro do semicírculo, através da face curva (de forma que o feixe entre no semicírculo com ângulo de incidência nulo: $\theta_{i}$= 0°)
+    \item Girar a mesa graduada e observar os feixes incidente e refletido – Calcular o índice de refração do material.
+    \item Medir o erro percentual.
+\end{enumerate}
+
+\subsection{Procedimento experimental 2}
+
+\begin{enumerate}
+    \item Girar a mesa graduada de e observar o giro do feixe refletido em relação ao incidente.
+    \item Conferir a lei da reflexão e o ângulo de giro do feixe em função do giro do espelho em relação ao raio incidente.
+    \item Calcular o erro percentual para cada par de valores obtidos.
+\end{enumerate}
+
+\section{Resultados e discusão}
+
+\subsection{Procedimento 1}
+
+\subsubsection{Dados}
+
+A partir do experimento foram obtidos os seguintes dados:
+
+\begin{table}[h]
+\centering
+\caption{Tabela de dados do procedimento 1}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|} \hline
+Medida & $i(graus)$ & $r(graus)$  \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+1   &   5    &   6,5     \\  \hline
+2   &   10   &   15      \\  \hline
+3   &   15   &   22,5    \\  \hline
+4   &   20   &   30,5    \\  \hline
+5   &   25   &   38      \\  \hline
+6   &   30   &   47,5    \\  \hline
+7   &   34,5 &   56      \\  \hline
+8   &   40   &   72      \\  \hline
+\end{tabular}
+\end{table}
+
+Passa-se então a tratar os dados e monta-los em uma tabela de parametros que serão usados no ajuste linear do procedimento 1.
+
+%\newpage
+\begin{table}[h]
+\centering
+\caption{Tabela de parametros}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+Medida & $sen(r)$ & $sen(i)$ & $sen²(r)$ & $sen²(i)$ & $sen(r)\times sen(i)$ \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+1  &  0,08716  &  0,11320  &  0,00760  &  0,01281  &  0,00987   \\  \hline
+2  &  0,17365  &  0,25882  &  0,03015  &  0,06699  &  0,04494   \\  \hline
+3  &  0,25882  &  0,38268  &  0,06699  &  0,14645  &  0,09905   \\  \hline
+4  &  0,34202  &  0,50754  &  0,11698  &  0,25760  &  0,17359   \\  \hline
+5  &  0,42262  &  0,61566  &  0,17861  &  0,37904  &  0,26019   \\  \hline
+6  &  0,50000  &  0,73728  &  0,25000  &  0,54358  &  0,36864   \\  \hline
+7  &  0,56641  &  0,82904  &  0,32082  &  0,68730  &  0,46957   \\  \hline
+8  &  0,64279  &  0,95106  &  0,41318  &  0,90451  &  0,61133   \\  \hline
+\end{tabular}
+\end{table}
+
+Agora pode-se começar a tratar os dados da tabela de parametros, esses novos dados foram colocados na tabela 3 abaixo:
+
+\newpage
+\begin{table}[h!]
+\centering
+\caption{Tabela de dados tratados}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|} \hline
+
+<x>            &   <$sen(r)$>                   &  0,37418    \\ \hline
+<y>            &   <$sen(i)$>                   &  0,54941    \\ \hline
+<xy>           &   <$sen(r) \times sen(i)$>     &  0,25465    \\ \hline
+<x²>           &   <$sen(r)^2$>                 &  0,17304    \\ \hline
+<y²>           &   <$sen(i)^2$>                 &  0,37478    \\ \hline
+$\sigma_{xy}$  &    covariância                 &  0,04907    \\ \hline
+$\sigma_{x}$   &    desvio padrão $sen(r)$      &  0,18173    \\ \hline
+$\sigma_{y}$   &    desvio padrão $sen(i)$      &  0,27006    \\ \hline
+ 
+\end{tabular}
+\end{table}
+
+A partir dos valores da tabela 3 calcula-se então:
+
+
+\begin{table}[h!]
+\centering
+\caption{\empty}
+\vspace{0.1 cm}
+\begin{tabular}{|c|c|c|} \hline
+
+a               &    1,48567     \\ \hline
+b               &    -0,00650    \\ \hline
+$\epsilon_y$    &    0,00685     \\ \hline
+$\epsilon_x$    &    0,00461     \\ \hline
+$\sigma_a$      &    0,03771     \\ \hline
+$\sigma_b$      &    0,01569     \\ \hline
+
+\end{tabular}
+\end{table}
+
+\subsubsection{Ajuste Linear}
+
+Para o ajuste linear foi feita a linearização da lei de Snell, para isso ela foi modificada para ter o formato $y = ax + b$ como visto abaixo:
+
+\begin{equation}
+  \ n_{1} \times sen (i) = n_{2} \times sen (r)
+\end{equation}
+
+\begin{equation}
+  \ sen (i) = \dfrac{n_{2}}{n_{1}} \times sen (r)
+\end{equation}
+
+Tem-se que $y = sen (i)$, $x = sen (r)$ e $a = \dfrac{n_2}{n_1}$ e desse modo a reta de calibração é expressa como:
+
+\begin{equation}
+  \ sen (i)  = 1,48567\times sen (r)  - 0,00650
+\end{equation}
+
+\begin{equation}
+  \ \epsilon_y = \epsilon_{_{sen(i)}} = 0,00685
+\end{equation}
+
+Tendo como expressão final a junção de (3) com (4). Assim tem-se:
+
+\begin{equation}
+  \ sen (i) \pm \big[ \epsilon_{_{sen(i)}} \big] = [\Big(1,48567\times sen (r)\Big) \pm (0,00685)] - [(0,00650) \pm (0,00685)]
+\end{equation}
+
+Assim foi encontrado um coeficente angular $n = a$ $\cong$  1,48567.
+
+\subsubsection{Erros e compatibilidade}
+
+Como se pode observar em nossa equação (2) tem-se o $\dfrac{n_2}{n_1} = \dfrac{n_{acrilico}}{n_{vidro}}$ e o valor de referência é $\dfrac{n_{acrilico}}{n_{vidro}} = \dfrac{1,49}{1} = n = 1,49$ , como o $n$ encontrado não tem o mesmo valor passasse então ao cálculo de sua compatibilidade.
+
+Usando a relação
+
+\begin{equation}
+  \ \Big|n - n_{ref}\Big| < 2\times\sigma_n
+\end{equation}
+
+Pode-se dizer se o valor é ou não compativel com a teoria. Para isso o que foi feito é:
+
+\begin{equation}
+  \ \Big|1,48567 - 1,49\Big| < 2\times0,03771
+\end{equation}
+\begin{equation}
+  \  0,00433 < 0,07542
+\end{equation}
+
+Como pode-se observar o resultado dessa desigualdade é verdadeiro. Ou seja ele se encaixa na situação da equação (10) que dará uma resposta que conclui que à analise é compatível com a teoria.
+
+Possa-se a calcular o erro relativo para que se possa ver qual a proximidade fica a resposta em relação ao valor de referência.
+
+É possivel conseguir esse erro fazendo:
+
+\begin{equation}
+  \  E = \dfrac{\Big|n - n_{ref}\Big|}{n_{ref}} \times 100 \%
+\end{equation}
+
+Substituindo os valores na equação (13) fica-se com:
+
+\begin{equation}
+  \  E = 0,29\%
+\end{equation}
+
+Que é o erro relativo.
+
+\subsection{Procedimento 2}
+%\subsubsection{Dados}
+
+A partir do experimento foram obtidos os seguintes dados da tabela abaixo:
+
+\newpage
+\begin{table}[h]
+\centering
+\caption{Tabela de dados do procedimento 2}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|c|} \hline
+Medida & $i(graus)$ & $r(graus)$ & erro das medidas  \\ \hline 
+
+1   &   45   &   45  &  $\pm$0,5     \\  \hline
+2   &   50   &   50  &  $\pm$0,5    \\  \hline
+3   &   55   &   55  &  $\pm$0,5    \\  \hline
+4   &   60   &   60  &  $\pm$0,5    \\  \hline
+5   &   65   &   65  &  $\pm$0,5    \\  \hline
+6   &   70   &   70  &  $\pm$0,5    \\  \hline
+7   &   75   &   75  &  $\pm$0,5    \\  \hline
+8   &   80   &   80  &  $\pm$0,5    \\  \hline
+9   &   85   &   85  &  $\pm$0,5    \\  \hline
+\end{tabular}
+\end{table}
+
+Sabe-se que os dados de incidência e os de reflexão total são iguais o que nos deixa comprovar a 2 segunda lei da reflexão, que diz que o ângulo de incidencia deve ser igual ao de reflexão. E temos erro somente para a incerteza do instrumento analógico usado na experiência.
+
+
+Passou-se agora a verificar o ângulo de giro do feixe em função do giro do espelho em relação ao raio incidente.
+
+Para essa parte foi utilizado o esquema da figura 1 abaixo.
+
+\begin{figure}[!h]
+\centering
+{\includegraphics[width=1\textwidth]{figura5.png}}
+\caption{\label{fig:figura5} \empty}
+\end{figure}
+
+Primeiramente foi pego o triangulo $I_1$Ô$I_2$ e então foi calculado $alpha$. Depois foi realizado um procedimento análogo para calcular o $delta$ da figura e então foi feita a relação dos dois para comprovar que $delta$ = $2\times alpha$. Os dados esão na tabela abaixo:
+
+%\newpage
+\begin{table}[h]
+\centering
+\caption{Tabela de dados do procedimento 2}
+\vspace{0.5cm}
+\begin{tabular}{|c|c|c|} \hline
+Medida & $alpha$ & $delta$  \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+1   &   5   &   10      \\  \hline
+2   &   5   &   10      \\  \hline
+3   &   5   &   10      \\  \hline
+4   &   5   &   10      \\  \hline
+5   &   5   &   10      \\  \hline
+6   &   5   &   10      \\  \hline
+7   &   5   &   10      \\  \hline
+8   &   5   &   10      \\  \hline
+9   &   5   &   10      \\  \hline
+\end{tabular}
+\end{table}
+
+\section{Conclusões}
+
+O procedimento 1 se mostrou compativel com o que diz a teória tendo um erro percentual de $0,29 \%$. Sendo assim concluiu-se que o experimento foi realizado com perfeição.
+
+O procedimento 2 conseguiu comprovar a 2º lei da reflexão e  o ângulo de giro do feixe em função do giro do espelho em relação ao raio incidente tendo como erro somente o erro o erro do instrumento utilizado.
+
+
+\end{document}
